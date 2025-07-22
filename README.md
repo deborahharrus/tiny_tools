@@ -38,6 +38,24 @@ pip install -r requirements.txt
 python file_downloader.py --file "Biology Resources.html" --file-type pdf
 ```
 
+### ✂️ [PNG Image Cropper](crop_png/)
+A smart image cropping tool that automatically removes empty areas around content in PNG images. Perfect for cleaning up screenshots, diagrams, charts, or any images with unnecessary white space.
+
+**Features:**
+- Automatic content detection using pixel analysis
+- Smart cropping to content boundaries
+- Configurable margin settings
+- Batch processing of multiple files
+- Flexible file pattern matching
+- Preserves original image quality
+
+**Quick Start:**
+```bash
+cd crop_png
+pip install -r requirements.txt
+python crop_png_images.py image.png
+```
+
 ## Getting Started
 
 ### Prerequisites
@@ -73,6 +91,11 @@ dh_tiny_tools/
 ├── file_downloader/
 │   ├── file_downloader.py
 │   ├── example_usage.py
+│   ├── README.md
+│   └── requirements.txt
+├── crop_png/
+│   ├── crop_png_images.py
+│   ├── crop_all_png.bat
 │   ├── README.md
 │   └── requirements.txt
 └── README.md
