@@ -56,6 +56,24 @@ pip install -r requirements.txt
 python crop_png_images.py image.png
 ```
 
+### 📊 [CSV Column Filter](csvnator2/)
+A powerful CSV processing tool for filtering specific columns with advanced data cleaning capabilities. Perfect for data analysis, cleaning, and transformation tasks.
+
+**Features:**
+- Column selection by index from CSV files
+- Duplicate removal and data sorting
+- Progress tracking for large files
+- Robust error handling and logging
+- Flexible input/output options
+- Memory-efficient processing
+
+**Quick Start:**
+```bash
+cd csvnator2
+pip install -r requirements.txt
+python csvnator2.py --input_file data.csv --output_file filtered.csv --column_indexes 0,1,3
+```
+
 ## Getting Started
 
 ### Prerequisites
@@ -96,6 +114,10 @@ dh_tiny_tools/
 ├── crop_png/
 │   ├── crop_png_images.py
 │   ├── crop_all_png.bat
+│   ├── README.md
+│   └── requirements.txt
+├── csvnator2/
+│   ├── csvnator2.py
 │   ├── README.md
 │   └── requirements.txt
 └── README.md
