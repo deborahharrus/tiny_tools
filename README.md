@@ -74,6 +74,23 @@ pip install -r requirements.txt
 python csvnator2.py --input_file data.csv --output_file filtered.csv --column_indexes 0,1,3
 ```
 
+### 📅 [Rota Table Generator](rota_table_generator/)
+A simple tool to generate weekly rota CSV files for any given year. Each week starts on Monday and ends on Sunday. Perfect for creating schedule templates, planning calendars, or generating weekly rota tables.
+
+**Features:**
+- Year-based generation for any year
+- Standard week format (Monday to Sunday)
+- Clean CSV output format
+- Custom output filenames
+- No external dependencies
+- 52-week coverage per year
+
+**Quick Start:**
+```bash
+cd rota_table_generator
+python generate_rota.py 2025
+```
+
 ## Getting Started
 
 ### Prerequisites
@@ -120,6 +137,9 @@ dh_tiny_tools/
 │   ├── csvnator2.py
 │   ├── README.md
 │   └── requirements.txt
+├── rota_table_generator/
+│   ├── generate_rota.py
+│   └── README.md
 └── README.md
 ```
 
